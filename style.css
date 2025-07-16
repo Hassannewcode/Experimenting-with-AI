@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.display-container {
+    border: 1px solid #ccc;
+    margin-right: 2rem;
+}
+
+#oscilloscope-display {
+    background-color: #000;
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.control {
+    margin-bottom: 1rem;
+}
+
+input[type="number"] {
+    width: 60px;
+}
